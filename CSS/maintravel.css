@@ -259,3 +259,140 @@ img.info-des {
     grid-column-end: 3;
     display: flex;
 }
+
+.img-items{
+    position: relative;
+}
+
+.text-on-img {
+    color: #fff;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 5px 11px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: #f97150;
+}
+
+/* popular Tour */
+
+.hovereffect {
+    overflow: hidden;
+    width: 100%;
+    height: auto;  
+    /* background-color: #303030; */
+    margin: 0;
+  
+}
+.hovereffect:hover .img-responsive{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s;
+    /* opacity: 0.7; */
+}
+
+.img-responsive{
+    width: 100%;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transition: 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
+            transition: all 0.3s;
+}
+/* ------------------------------- */
+.three-img-bestseller {
+    padding: 50px 0;
+}
+
+.all-three-img {
+    width: 80%;
+    margin: 0 auto;
+}
+.all-textunder-imgtheplane.tour-stand {
+    padding: 20px;
+}
+img.img-slider.img-responsive {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.day-and-star {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+.day-and-star-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.star-and-re {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1.text-under-img-theplane {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333333;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+h1.text-under-img-theplane::before{
+    content: "\f0e7";
+    font-family: FontAwesome;
+    padding-right: 10px;
+    color: #ffa11a;
+}
+.colect-number {
+    color: #f97150;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+}
+.error-nuber {
+    text-decoration: line-through;
+    opacity: .5;
+}
+
+.dayy::before{
+    content: "\f1da";
+    font-family: FontAwesome;
+    padding-right: 10px;
+    color: #ffa11a;
+}
+
+/* .note-plane {
+    color: #ffffff;
+    background-color: #f97150;
+    font-weight: 600;
+    padding: 5px;
+} */
+
+.ing-ne.hovereffect {
+    position: relative;
+}
+
+span.sell {
+    position: absolute;
+    bottom: 37%;
+    left: 10%;
+    padding: 5px 25px;
+    color: #ffffff;
+    background-color: #f97150;
+    font-weight: 600;
+}
+
+.dayy {
+    padding-bottom: 10px;
+}
