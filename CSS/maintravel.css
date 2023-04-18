@@ -5,8 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
-    font-family: "ArcaMajora";
+    font-family: 'Poppins', sans-serif;
+    /* font-family: "ArcaMajora"; */
 
     font-size: 14px;
     line-height: 24px;
@@ -154,4 +154,108 @@ span.ud-bnnar {
     color: #fff;
     line-height: 1.7;
     letter-spacing: 1px;
+}
+
+/* popular sestinations */
+
+.popular-des-all {
+    width: 100%;
+    height: 100%;
+}
+
+/* viex all dextina */
+
+a.after-ltr.one {
+    transition: .4s linear 0s;
+    font-size: 14px;
+    line-height: 30px;
+    /* color: #595959; */
+    text-transform: uppercase;
+    font-weight: 600;
+    /* position: relative; */
+    letter-spacing: 1px;
+}
+.wrapper{
+    margin: 0;
+  }
+  a,a:visited,a:hover,a:active{
+    -webkit-backface-visibility:hidden;
+            backface-visibility:hidden;
+    position:relative;
+    transition:0.5s color ease;
+    text-decoration:none;
+    color:#000;
+    /* font-size:2.5em; */
+  }
+  a:hover{
+      color:#dc8051;
+      transition: all .5s ;
+  }
+  a.after-ltr:after{
+    content: "";
+    transition:0.5s all ease;
+    -webkit-backface-visibility:hidden;
+            backface-visibility:hidden;
+    position:absolute;
+  }
+  a.after-ltr:after{
+    bottom:-0.25em;
+  }
+a.after-ltr:after{
+    height:1px;
+    width:0;
+    background:#DC8051;
+    transition: all .5s ;
+
+  }
+  a.after-ltr:after{
+    left:0;
+  }
+ a.after-ltr:hover:after{
+    width:100%;
+  }
+
+  a.after-ltr.one::after{
+    content:"\f061";
+    font-family: FontAwesome;
+    padding-right:10px;
+}
+/* --end-- */
+
+.tiltel-popular {
+    text-align: center;
+}
+
+h2.des-tina {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+/* five image */
+.five-img {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+}
+
+img.info-des {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.all-five-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.img-items.speciall{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
 }
