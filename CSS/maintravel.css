@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Playfair+Display&family=Poppins:wght@300;400;600&family=Roboto:ital,wght@1,900&family=Satisfy&family=Schibsted+Grotesk:ital@1&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: "ArcaMajora";
+
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.title-under-menu {
+    text-align: center;
+    padding: 150px 0;
+}
+
+.under-menu{
+    background-image: url(../IMAGE/bgr-undermenu-travel.jpg);
+    background-size: 100% 100%;
+}
+
+h1.find {
+    font-size: 52px;
+    color: #fff;
+    font-weight: 800;
+}
+
+span.discover-find {
+    font-size: 21px;
+    font-style: normal;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+/* seclect under-menu */
+.select-loca {
+    padding: 30px 0;
+}
+.row.for-loca {
+    align-items:center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 0 1px 2px rgb(237 237 237);
+    background: #fff;
+}
+
+/* keywords */
+input.form-control {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    box-shadow: none;
+}
+span#basic-addon1 {
+    border: none;
+    background: #fff;
+}
+
+.input-group>.form-control:focus, .input-group>.form-floating:focus-within, .input-group>.form-select:focus {
+    border: none;
+    box-shadow: unset;
+}
+
+.mb-3 {
+    margin-bottom: 0 !important;
+} 
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    padding: 3px 0;
+}
+/* -- */
+
+select.month-select {
+    WIDTH: 100%;
+    height: 100%;
+    border:none;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.select-read {
+    border-bottom: 1px solid #dc8051;
+    color: #333333;
+    opacity: 1;
+
+}
+
+h1.name-select {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+button.search-select {
+    padding: 15px 45px;
+    color: #fff;
+    background-color: #dc8051;
+    border: none;
+    font-weight: 600;
+}
+button.search-select:hover{
+    background-color:#e96422;
+    transition: all .7s ;
+}
+
+.col.speci {
+    text-align: center;
+}
+
+.row.for-loca .col {
+    padding: 0px 30px 0 0;
+}
+
+/* banner */
+
+.all-banner {
+    padding: 50px 0;
+}
+.row.benner-vi {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fe9268;
+    padding: 50px;
+}
+.row.benner-vi .col{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    
+}
+
+h1.tx-bnner {
+    font-family: ArcaMajora;
+    color: #fff;
+    line-height: 1.55;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+span.ud-bnnar {
+    color: #fff;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
