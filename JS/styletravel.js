@@ -17,3 +17,13 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 500) {
+        $('.click-ontop').addClass('gogo');
+    }
+    else {
+        $('.click-ontop').removeClass('gogo');
+    }
+})
