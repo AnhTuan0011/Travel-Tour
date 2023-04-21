@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Playfair+Display&family=Poppins:wght@300;400;600&family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;800&family=Playfair+Display&family=Poppins:wght@300;400;600&family=Roboto:ital,wght@1,900&family=Satisfy&family=Schibsted+Grotesk:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+
+
+
+
+    <title>Tour List</title>
+    <link rel="stylesheet" href="../CSS/maintravel.css">
+    <link rel="stylesheet" href="../MENU/menu.css">
+
+
+
+</head>
+<body>
+
+
+<!-- header -->
+    <div id="header">
+        <div class="homelist">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <div class="logo-and-nav">
+                        <a class="navbar-brand" href="../index.html"><img class="logo" src="../IMAGE/logo-v3.png" alt="logo"></a>
+                        <!-- <div class="toggle">
+                            <div id="container-navbars">
+                                  <div id="b1" class="box">
+                                      <svg id="i1" class="icon" viewBox="0 0 100 100">
+                                      <path id="top-line-1"     d="M30,37 L70,37 Z"></path>
+                                      <path id="middle-line-1" 	d="M30,50 L70,50 Z"></path>
+                                      <path id="bottom-line-1" 	d="M30,63 L70,63 Z"></path>
+                                      </svg>
+                                  </div>
+                            </div>
+                        </div> -->
+                        <div class="menu__bar">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active " aria-current="page" href="../index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                            </a>
+                        </li>
+            
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Page
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../HTML/AboutUs.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="../HTML/OurServices.html">Our Services</a></li>
+                            <li><a class="dropdown-item" href="../HTML/Contact.html">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="../HTML/Gallery.html">Gallery</a></li>
+                            </ul>
+                        </li>
+            
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tour
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../HTML/ListTour.html">Tour List</a></li>
+                            <li><a class="dropdown-item" href="../HTML/DetailTour.html">Tour Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Destinations
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../HTML/DestinationsDetail.html">Desyinations Detail</a></li>
+                            <!-- <li><a class="dropdown-item" href="./HTML/ItemsTour.html">Tour Items</a></li> -->
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../HTML/BlogDetail.html">Blog Detail</a></li>
+                            <!-- <li><a class="dropdown-item" href="./HTML/ItemsBlog.html">Blog Items</a></li> -->
+                            </ul>
+                        </li>
+                        </ul>
+                    </div>
+                    <!-- menu bomile -->
+                    <!-- mobile -->
+                    <!-- <div class="menu__mobile">
+                        <ul class="main__menu__mobile">
+                            <li class="sub__menu__mobile">
+                                <a href="./Index.html" class="menu__title__mobile">Home</a>
+                            </li>
+                            <li class="sub__menu__mobile">
+                                <a class="menu__title__mobile">Pages <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown__menu__mobile">
+                                    <li><a href="./HTML/AboutUs.html">About Us</a></li>
+                                    <li><a href="./HTML/OurTeams.html">Our team</a></li>
+                                    <li><a href="./HTML/ContactUs.html">Contact Us</a></li>
+                                    <li><a href="./HTML/Faq.html">FAQ</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub__menu__mobile">
+                                <a  class="menu__title__mobile">Destinations <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown__menu__mobile">
+                                    <li><a href="./HTML/ListDestinations.html">Destinations List</a></li>
+                                    <li><a href="./HTML/ItemsDestintion.html">Destinations Items</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub__menu__mobile">
+                                <a class="menu__title__mobile">Tour <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown__menu__mobile">
+                                    <li><a href="./HTML/ListTour.html">Tour List</a></li>
+                                    <li><a href="./HTML/ItemsTour.html">Tour Items</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub__menu__mobile">
+                                <a  class="menu__title__mobile">Blog <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown__menu__mobile">
+                                    <li><a href="./HTML/ListBlog.html">Blog List</a></li>
+                                    <li><a href="./HTML/ItemsBlog.html">Blog Items</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div> -->
+
+                    
+                    <!-- end  -->
+                    <div class="btn-box-search">
+                        <div id="search">
+                            <i class="fa-solid fa-x btn-close-search"></i>
+                            <i class="fa-sharp fa-solid fa-magnifying-glass fa-rotate-90 btn-open"></i>
+                        </div>
+                        <div id="box-search" class="test-search">
+                            <div class="all-bnt-search">
+                                <input type="text" class="input-now" placeholder="Search..." name="s" autocomplete="off">
+                                <a href="" class="link-to-search-resuft"><button type="submit" class="find-n">Find Now</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+<!-- content -->
+    <div id="container-tour-list">
+        <!-- bgr -->
+        <div class="bgr-under-contact-us">
+            <div class="all-bgr-under-contact-us">
+                <div class="txt-ctu">
+                    <h1 class="con-us">Tour List</h1>
+                    <p class="ac-us">Explore Tours By Destinations</p>
+                </div>
+            </div>
+        </div>
+        <!-- 9 img -->
+        <div class="all-ab-tour-list">
+            <div class="three-img-bestseller">
+                <div class="all-three-img">
+                    <div class="row popul-tour for-tourlist">
+                        <!-- 1 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <img src="../IMAGE/img-tour-list1.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <span class="sell">Best Seller</span>
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Africa – Amazing African Safari</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">5 hours</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber hv-fm">Form</div>
+                                        <div class="colect-number">$100</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <img src="../IMAGE/img-tour-list2.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <!-- <span class="sell">Best Seller</span> -->
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Dubai – All Stunning Places</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">8 hours</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber hv-fm">Form</div>
+                                        <div class="colect-number">$1,200</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <div class="over-tour-list">
+                                        <span class="icon-tour"><i class="fa-solid fa-film"></i></span>
+                                    </div>
+                                    <img src="../IMAGE/img-tour-list3.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <span class="sell">Best Seller</span>
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Venice, Rome and Milan – 9 Days 8 Nights</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">7 Day</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber">$4,300</div>
+                                        <div class="colect-number">$3,800</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <div class="over-tour-list">
+                                        <span class="icon-tour"><i class="fa-solid fa-film"></i></span>
+                                    </div>
+                                    <img src="../IMAGE/img-tour-list4.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <span class="sell">Best Seller</span>
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Enquiry Form Only – Paris – 6 Days</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">5 Day</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber">$3,700</div>
+                                        <div class="colect-number">$2,000</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <img src="../IMAGE/img-tour-list5.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <!-- <span class="sell">Best Seller</span> -->
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">5-Day Oahu Tour: Honolulu, Pearl Harbor, & Diamond Head</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">5 Day</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber hv-fm">Form</div>
+                                        <div class="colect-number">$3,500</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <img src="../IMAGE/img-tour-list6.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <!-- <span class="sell">Best Seller</span> -->
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Molokini and Turtle Arches Snorkeling Trip</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">4 Hours</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber hv-fm">Form</div>
+                                        <div class="colect-number">$80</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 7 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <img src="../IMAGE/img-tour-list7.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <!-- <span class="sell">Best Seller</span> -->
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Two Capitals Tour of 7 days and 6 nights From Moscow</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">8 Days 7 Nights</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber">$3,880</div>
+                                        <div class="colect-number">$3,500</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 8 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <img src="../IMAGE/img-tour-list8.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <!-- <span class="sell">Best Seller</span> -->
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Pais – Eiffel Tower, Notre Dame Cath..</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">10 Hours</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber hv-fm">Form</div>
+                                        <div class="colect-number">$800</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 9 -->
+                        <div class="col-6 col-md-4">
+                            <div class="ing-ne hovereffect">
+                                <a href="../HTML/ItemsTour.html" class="link-theplane">
+                                    <img src="../IMAGE/img-tour-list9.jpg" alt="" class="img-slider img-responsive">
+                                </a>
+                            </div>
+                            <!-- <div class="note-plane"> -->
+                               <span class="sell">Special Offer</span>
+                            <!-- </div> -->
+                            <div class="all-textunder-imgtheplane tour-stand">
+                                <a href="" class="link-here">
+                                    <h1 class="text-under-img-theplane">Austria – 6 Days in Vienna, Hallstatt</h1>
+                                </a>
+                                <div class="day-and-star">
+                                    <div class="day-and-star-left">
+                                        <div class="dayy">2 Days 1 Nights</div>
+                                        <div class="star-and-re">
+                                            <div class="star-in">
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                                <span class="star-under-img"><i class="fa-solid fa-star" style="color: #ffa11a;"></i></span>
+                                            </div>
+                                            <div class="revi">(1 Review)</div>
+                                        </div>
+                                    </div>
+                                    <div class="day-and-star-right">
+                                        <div class="error-nuber">$2,600</div>
+                                        <div class="colect-number">$2.100</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end -->
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+<!-- footer -->
+    <div id="footer">
+        <div class="all-row-footer">
+            <div class="row footer">
+                <div class="col">
+                    <div class="title-footer">
+                        <h1 class="cl-us sp">Call Us</h1>
+                    </div>
+                    <div class="info-footer">
+                        <span class="number call-ft">+6-345-3456-233</span>
+                    </div>
+                    <div class="title-footer">
+                        <h1 class="cl-us sp">Emmail</h1>
+                    </div>
+                    <div class="info-footer">
+                        <span class="number">Ask@traveltourtheme.com</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="title-footer">
+                        <h1 class="cl-us">About Us</h1>
+                    </div>
+                    <div class="link-cotu">
+                        <div class="four-link">
+                            <a href="#" class="link-to-city">
+                                <span class="tx-a">Our Story</span>
+                            </a>
+                            <a href="#" class="link-to-city">
+                                <span class="tx-a">Cultural & Thematic Tours</span>
+                            </a>
+                            <a href="#" class="link-to-city">
+                                <span class="tx-a">Working With Us</span>
+                            </a>
+                            <a href="#" class="link-to-city">
+                                <span class="tx-a">Be Our Partner</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="title-footer">
+                        <h1 class="cl-us">Support</h1>
+                    </div>
+                    <div class="link-cotu">
+                        <div class="four-link">
+                            <a href="#" class="link-to-city">
+                                <span class="tx-a">Customer Support</span>
+                            </a>
+                            <a href="#" class="link-to-city">
+                                <span class="tx-a">Privacy & Policy</span>
+                            </a>
+                            <a href="#" class="link-to-city">
+                                <span class="tx-a">Contact Channels</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="title-footer">
+                        <h1 class="cl-us">Pay Safely With Us</h1>
+                    </div>
+                    <div class="text-with-img">
+                        <div class="for-text-ft">
+                            <p class="pay">The payment is encrypted and transmitted securely with an SSL protocol.</p>
+                        </div>
+                        <div class="ig-ft">
+                            <img src="../IMAGE/img-footer.png" alt="" class="lg-ft">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- under-footer -->
+    <div class="under-footer">
+        <div class="all-under-footer">
+            <div class="under-footer-left">© 2019 Travel Tour  All Rights Reserved.</div>
+            <div class="under-footer-right">
+                <div class="fl-us">
+                    <h3 class="our-us">Follow Us On </h3>
+                    <div class="all-icon-fl-us">
+                        <div class="all-icon-br">
+                            <a href="#" class="link-to-mxh">
+                                <span class="mxh"><i class="fa-brands fa-facebook"></i></span>
+                            </a>
+                            <a href="#" class="link-to-mxh">
+                                <span class="mxh"><i class="fa-brands fa-pinterest-p"></i></span>
+                            </a>
+                            <a href="#" class="link-to-mxh">
+                                <span class="mxh"><i class="fa-brands fa-twitter"></i></span>
+                            </a>
+                            <a href="#" class="link-to-mxh">
+                                <span class="mxh"><i class="fa-brands fa-youtube"></i></span>
+                            </a>
+                            <a href="#" class="link-to-mxh">
+                                <span class="mxh"><i class="fa-brands fa-instagram"></i></span>
+                            </a>
+                        </div>
+                        <!-- <span class="icon-fl-us"></span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- on top -->
+    <div class="click-ontop">
+        <a href="#" class="link-to-top">
+            <button class="click-me" href="#"><i class="fa-solid fa-caret-up" style="color: #dc8051;"></i></button>
+        </a>
+    </div>
+<!-- -->
+
+    <!-- <script> -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js" integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- <script src="../JS/styletravel.js"></script> -->
+    <script src="../MENU/menujs.js"></script>
+
+    <script>
+        
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 500) {
+                $('.click-ontop').addClass('gogo');
+            }
+            else {
+                $('.click-ontop').removeClass('gogo');
+            }
+        })
+    </script>
+</body>
+</html>

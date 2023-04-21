@@ -347,7 +347,7 @@ img.info-des {
 }
 
 .row.popul-tour .col-6.col-md-4{
-    max-height: 100%;
+    height: 100%;
     padding: 0 15px;
 }
 
@@ -440,6 +440,7 @@ span.sell {
     color: #ffffff;
     background-color: #f97150;
     font-weight: 600;
+    z-index: 2;
 }
 
 .dayy {
@@ -1703,6 +1704,53 @@ button.btn.btn-primary {
 
 /*--------------------- Tour List -------------------*/
 
+
+.row.popul-tour.for-tourlist .col-6.col-md-4{
+    padding: 20px;
+}
+
+.error-nuber.hv-fm {
+    text-decoration: unset;
+}
+
+.over-tour-list{
+    position: absolute;
+    background-color: rgba(34, 34, 34, 0.45);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+    transition: all 0.5s;
+
+    
+}
+
+span.icon-tour {
+    position: relative;
+    top: 45%;
+    left: 46%;
+    color: #fff;
+    display: none;
+    /* transition: all 0.5s; */
+    
+
+}
+
+.fa-film:before {
+    content: "\f008";
+    font-size: 35px;
+}
+
+.ing-ne.hovereffect:hover .over-tour-list,
+.ing-ne.hovereffect:hover span.icon-tour{
+    /* transition: all 0.5s; */
+    display: block;
+    
+}
+
+
 /*--------------------- Tour Detail -------------------*/
 
 
@@ -1718,15 +1766,285 @@ button.btn.btn-primary {
 
 /* over-lay img */
 .over-lay-des{
-    background-color: rgba(34, 34, 34, 0.45);
+    background-color: rgba(34, 34, 34, 0.6);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+    display: none;
+}
+
+.img-items:hover .over-lay-des{
+    display: block;
+}
+/* hover anh chu hien */
+
+.title-des-forhv {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    transition: all ease-in-out .5s;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+p.hehe {
+    font-size: 15px;
+    line-height: 26px;
+}
+
+a.link-mt {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #f97150;
+}
+.under-title-des-forhv {
+    width: 100%;
+    position: absolute;
+    display: none;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    /* font-size: .8em; */
+    padding: 0px 25px;
+}
+.img-items:hover .title-des-forhv{
+    bottom: 60%;
+  
+}
+.img-items:hover .under-title-des-forhv {
+    display: block;
+    animation-name: slide-up;
+    animation-duration: .3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: .1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+@keyframes slide-up {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+    100% {
+        bottom: 50%;
+        opacity: 1;
+    }
 }
 
 
-/*--------------------- Blog List  -------------------*/
 
-/*--------------------- Blog Detail -------------------*/
+
+
+
+/*--------------------- Blog Detail  -------------------*/
+
+/* content */
+.content-blog-detail {
+    background-color: #f7f7f7;
+    padding: 60px 0;
+}
+
+.all-content-blog-detail {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.blog-detail-left {
+    width: 70%;
+    padding: 0 20px;
+}
+
+.blog-detail-right{
+    width: 30%;
+    padding: 0 20px;
+}
+
+/* left */
+
+.img-and-text-bg {
+    padding-bottom: 40px;
+}
+
+img.for-blg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-bg-dl {
+    position: relative;
+}
+.sticky {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 10px 30px;
+    background-color: #f97150;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.txt-bg {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.timing-bg {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-bottom: 10px;
+}
+
+/* .timing-bg .on{
+    color:#e26748;
+} */
+
+
+.timing-bg a.link-for-glg{
+    color:#e26748;
+}
+
+
+.sticky::before{
+    content: "\e0b7";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+
+span.timing-blg.on::before{
+    content: "\f017";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+
+span.timing-blg-st.on::before{
+    content: "\f15b";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+
+span.timing-blg-2st.on::before{
+    content: "\f07b";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+
+span.timing-blg-3st.on::before{
+    content: "\f075";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+
+a.name-tip {
+    font-size: 38px;
+    line-height: 46px;
+    color: #000;
+    font-weight: 600;
+}
+
+p.inf-tip {
+    font-size: 15px;
+    line-height: 25px;
+    color: #8c8c8c;
+    padding: 20px 0;
+}
+
+button.read-mr-bg {
+    background-color: #f97150;
+    padding: 10px 17px;
+    border: none;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* overlay */
+.overlay-blg {
+    background-color: rgb(210, 68, 28, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+}
+
+.img-bg-dl.hovereffect:hover .overlay-blg{
+    display: block;
+}
+
+
+.under-img1 {
+    padding-bottom: 40px;
+}
+
+
+/* right */
+
+.all-blog-detail-right .general{
+    padding-bottom: 30px;
+}
+
+h1.title-lg-right {
+    font-size: 16px;
+    line-height: 19px;
+    font-family: ArcaMajora;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.if-text-widget {
+    font-size: 15px;
+    line-height: 26px;
+    color: #8c8c8c;
+}
+
+
+.row.for-right-blg .col-6.col-md-4{
+    padding: 5px;
+}
+
+span.linkk {
+    position: absolute;
+    left: 42%;
+    top: 38%;
+    color: #fff;
+    display: none;
+    z-index: 2;
+    
+}
+
+.img-bg-dl.hovereffect:hover span.linkk{
+    display: block;
+    transition: all .4s;
+}
+
+.recent-comment.general  .if-text-widget{
+    border-bottom: 1px solid #c7c2c2;
+}
+
+a.link-lg-detal {
+    font-size: 12px!important;
+    text-transform: none;
+    font-weight: 500;
+    float: left;
+    padding: 10px 16px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* padding: 10px 20px; */
+    background-color: #fff;
+    border: 1px solid #cfcfcf;
+}
