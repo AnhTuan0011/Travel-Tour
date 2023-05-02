@@ -6,6 +6,7 @@
   .btn-box-search i{
     font-size: 23px;
     cursor: pointer;
+    text-align: center;
   }
   
    .btn-box-search #box-search {

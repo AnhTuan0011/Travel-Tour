@@ -27,3 +27,4 @@ $(window).scroll(function () {
         $('.click-ontop').removeClass('gogo');
     }
 })
+

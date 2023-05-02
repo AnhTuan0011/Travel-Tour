@@ -20,13 +20,16 @@
 
 
 
-
+    <!-- thu vien animation AOS scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <title>About Us</title>
 
     <link rel="stylesheet" href="../CSS/maintravel.css">
     <link rel="stylesheet" href="../MENU/menu.css">
+    <link rel="stylesheet" href="../TEST/test.css" />
+
 
 
 
@@ -108,7 +111,7 @@
                     </div>
                     <!-- menu bomile -->
                     <!-- mobile -->
-                    <!-- <div class="menu__mobile">
+                    <div class="menu__mobile">
                         <ul class="main__menu__mobile">
                             <li class="sub__menu__mobile">
                                 <a href="./Index.html" class="menu__title__mobile">Home</a>
@@ -144,7 +147,7 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div> -->
+                    </div>
 
                     
                     <!-- end  -->
@@ -251,7 +254,10 @@
                         <img src="../IMAGE/pari-about-us.jpg" alt="" class="pari-abus">
                     </div>
                     <div class="Inceptos-right">
-                        <div class="all-Inceptos-right">
+                        <div class="all-Inceptos-right" data-aos="fade-left"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="3000">
                             <div class="title-Inceptor-r">
                                 <h1 class="pha-in">Pharetra Etiam Inceptos</h1>
                                 <p class="under-pha-in">Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia.</p>
@@ -281,7 +287,9 @@
                 <div class="about-services">
                     <div class="all-bout-services">
                         <div class="services-left">
-                            <div class="ct-ses">
+                            <div class="ct-ses" data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine">
                                 <h1 class="pha-in">About Services</h1>
                                 <p class="under-pha-in">Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
                                 <p class="under-pha-in">Maecenas faucibus mollis interdum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu leo quam. Pellentesque ornare sem lacinia quam</p>
@@ -439,7 +447,7 @@
                                 <span class="tx-a">Our Story</span>
                             </a>
                             <a href="#" class="link-to-city">
-                                <span class="tx-a">Cultural & Thematic Tours</span>
+                                <span class="tx-a">Travel Blog & Tips</span>
                             </a>
                             <a href="#" class="link-to-city">
                                 <span class="tx-a">Working With Us</span>
@@ -533,6 +541,14 @@
 
     <!-- <script src="../JS/styletravel.js"></script> -->
     <script src="../MENU/menujs.js"></script>
+    <script src="../TEST/testjs.js"></script>
+
+
+    <!-- thu vien animation AOS scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
     <script>
         

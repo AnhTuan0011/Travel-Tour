@@ -17,3 +17,5 @@ btnSearch.addEventListener("click", () => {
     btnSearch.classList.toggle('start');
     boxSearch.classList.toggle('start');
 })
+
+

@@ -1,0 +1,136 @@
+.container-slider {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gallery-new {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.list-img {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  /* padding-top: 20px; */
+  position: absolute;
+  bottom: 5%;
+  display: none;
+  z-index: 6;
+}
+
+.list-img img {
+  width: 200px;
+  height: 100px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.main-img {
+  display: flex;
+  position: relative;
+
+  width: 100%;
+}
+.main-img img.gall1 {
+  width: 100%;
+  height: 100%;
+}
+
+.col-main {
+  position: relative;
+  width: 100%;
+}
+
+.main-img .item-img {
+  min-width: 100%;
+}
+
+img.item-list {
+  opacity: 0.3;
+}
+
+.item-list.gall1.active-slid {
+  opacity: 1;
+}
+
+.nutslide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: none;
+}
+
+span.next {
+  right: 15px;
+  position: absolute;
+  font-size: 28px;
+  color: #fff;
+  width: 35px;
+  height: 36px;
+  background: #373737;
+  padding-left: 8px;
+  padding-right: 10px;
+  border-radius: 4px;
+  padding-top: 1px;
+  cursor: pointer;
+}
+
+span.prev {
+  left: 15px;
+  position: absolute;
+  font-size: 28px;
+  color: #fff;
+  width: 35px;
+  height: 36px;
+  background: #373737;
+  padding-left: 8px;
+  padding-right: 10px;
+  border-radius: 4px;
+  padding-top: 1px;
+  cursor: pointer;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.img-thumbnail {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  background: none;
+  border: none;
+}
+
+img.item-list.gall1:hover {
+  opacity: 1;
+}
+
+.container-slider:hover .list-img {
+  display: block;
+}
+
+a.person-th {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.bgr-ann {
+  background-image: url(../IMAGE/gallery-shadow.png);
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.container-slider:hover .bgr-ann {
+  display: block;
+}
