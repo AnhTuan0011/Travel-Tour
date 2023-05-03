@@ -3398,7 +3398,7 @@ a.link-lg-detal {
 
   .row.browse {
     width: 95%;
-    align-items: flex-start;
+    align-items: end;
   }
   button.btn.btn-outline-secondary {
     font-size: 13px;
@@ -3431,10 +3431,6 @@ a.link-lg-detal {
   .all-under-footer {
     width: 95% !important;
   }
-  span.number::before{
-    content: "";
-
-  }
   /* sua them */
   span.number {
     overflow-wrap: break-word;
@@ -3444,6 +3440,12 @@ a.link-lg-detal {
 }
 h1.text-under-img-theplane.new-recon.nww {
   letter-spacing: 1px;
+}
+h1.text-under-img-theplane.\32 line {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: overlay;
 }
 }
 /* ----------------------------------------------- */
