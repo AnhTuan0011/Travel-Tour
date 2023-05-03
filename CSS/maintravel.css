@@ -3420,7 +3420,7 @@ a.link-lg-detal {
   .all.featured {
     width: 95%;
   }
-
+/* footer */
   .row.footer {
     width: 95% !important;
   }
@@ -3431,6 +3431,20 @@ a.link-lg-detal {
   .all-under-footer {
     width: 95% !important;
   }
+  span.number::before{
+    content: "";
+
+  }
+  /* sua them */
+  span.number {
+    overflow-wrap: break-word;
+}
+  span.sell.qz {
+    bottom: 52%;
+}
+h1.text-under-img-theplane.new-recon.nww {
+  letter-spacing: 1px;
+}
 }
 /* ----------------------------------------------- */
 
