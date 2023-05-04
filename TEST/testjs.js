@@ -21,3 +21,5 @@ $('.main__menu__mobile .sub__menu__mobile').click(function(){
     $(this).siblings().children('.dropdown__menu__mobile').slideUp(300);
     $(this).toggleClass('show__dropdown').children('.dropdown__menu__mobile').slideToggle(300);
 })
+
+

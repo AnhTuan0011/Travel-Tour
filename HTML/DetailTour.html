@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
 
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" integrity="sha512-nNlU0WK2QfKsuEmdcTwkeh+lhGs6uyOxuUs+n+0oXSYDok5qy0EI0lt01ZynHq6+p/tbgpZ7P+yUb+r71wqdXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"/>
+
+    
     <title>Tour Detail</title>
     <link rel="stylesheet" href="../CSS/maintravel.css">
     <link rel="stylesheet" href="../MENU/menu.css">
@@ -88,8 +94,8 @@
                             Destinations
                             </a>
                             <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="../HTML/DestinationsDetail.html">Desyinations Detail</a></li>
-                            <!-- <li><a class="dropdown-item" href="./HTML/ItemsTour.html">Tour Items</a></li> -->
+                            <li><a class="dropdown-item" href="../HTML/Destinations.html">Destinations List</a></li>
+                            <li><a class="dropdown-item" href="../HTML/DestinationsDetail.html">Tour Detail</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -97,8 +103,8 @@
                             Blog
                             </a>
                             <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../HTML/Blog.html">Blog List</a></li>
                             <li><a class="dropdown-item" href="../HTML/BlogDetail.html">Blog Detail</a></li>
-                            <!-- <li><a class="dropdown-item" href="./HTML/ItemsBlog.html">Blog Items</a></li> -->
                             </ul>
                         </li>
                         </ul>
@@ -114,30 +120,30 @@
                                 <a class="menu__title__mobile">Pages <i class="fa-solid fa-angle-down"></i></a>
                                 <ul class="dropdown__menu__mobile">
                                     <li><a href="./AboutUs.html">About Us</a></li>
-                                    <li><a href="./OurServices.html">Our Services</a></li>
-                                    <li><a href="./Contact.html">Contact Us</a></li>
-                                    <li><a href="./Gallery.html">Gallery</a></li>
+                                    <li><a href="./OurTeams.html">Our team</a></li>
+                                    <li><a href="./ContactUs.html">Contact Us</a></li>
+                                    <li><a href="./Faq.html">FAQ</a></li>
                                 </ul>
                             </li>
                             <li class="sub__menu__mobile">
-                                <a  class="menu__title__mobile">Tour <i class="fa-solid fa-angle-down"></i></a>
+                                <a  class="menu__title__mobile">Destinations <i class="fa-solid fa-angle-down"></i></a>
+                                <ul class="dropdown__menu__mobile">
+                                    <li><a href="./Destinations.html">Destinations List</a></li>
+                                    <li><a href=".//DestinationsDetail.html">Destinations Detail</a></li>
+                                </ul>
+                            </li>
+                            <li class="sub__menu__mobile">
+                                <a class="menu__title__mobile">Tour <i class="fa-solid fa-angle-down"></i></a>
                                 <ul class="dropdown__menu__mobile">
                                     <li><a href="./ListTour.html">Tour List</a></li>
                                     <li><a href="./DetailTour.html">Tour Detail</a></li>
                                 </ul>
                             </li>
                             <li class="sub__menu__mobile">
-                                <a class="menu__title__mobile">Destinations <i class="fa-solid fa-angle-down"></i></a>
-                                <ul class="dropdown__menu__mobile">
-                                    <li><a href="./DestinationsDetail.html">Destinations Detail</a></li>
-                                    <!-- <li><a href="./HTML/ItemsTour.html">Destinations Items</a></li> -->
-                                </ul>
-                            </li>
-                            <li class="sub__menu__mobile">
                                 <a  class="menu__title__mobile">Blog <i class="fa-solid fa-angle-down"></i></a>
                                 <ul class="dropdown__menu__mobile">
+                                    <li><a href="./Blog.html">Blog List</a></li>
                                     <li><a href="./BlogDetail.html">Blog Detail</a></li>
-                                    <!-- <li><a href="./HTML/ItemsBlog.html">Blog Items</a></li> -->
                                 </ul>
                             </li>
                         </ul>
@@ -383,7 +389,9 @@
                                                 <div class="over-phto">
                                                     <div class="srea"><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></div>
                                                 </div>
-                                                <img src="../IMAGE/photo-slider3.jpg" alt="" class="sl-phto" data-fancybox="img-for-tour-detail">
+                                                <a href="../IMAGE/photo-slider3.jpg" class="link-from-tour-dee" data-fancybox="img-for-tour-detail">
+                                                    <img src="../IMAGE/photo-slider3.jpg" alt="" class="sl-phto" >
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -763,13 +771,13 @@
                         <h1 class="cl-us sp">Call Us</h1>
                     </div>
                     <div class="info-footer">
-                        <span class="number call-ft">+6-345-3456-233</span>
+                        <span class="number call-ft">0242-242-777</span>
                     </div>
                     <div class="title-footer">
-                        <h1 class="cl-us sp">Emmail</h1>
+                        <h1 class="cl-us sp">Email</h1>
                     </div>
                     <div class="info-footer">
-                        <span class="number">Ask@traveltourtheme.com</span>
+                        <span class="number">info@iit.com.vn.</span>
                     </div>
                 </div>
                 <div class="col">
@@ -879,6 +887,10 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="../owlcarousel/owl.carousel.min.js"></script> 
     <!-- <script src="../JS/styletravel.js"></script> -->
+
+    <!-- fancybox-scrip -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
 
 
 

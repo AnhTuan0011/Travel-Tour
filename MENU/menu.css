@@ -40,7 +40,7 @@
   
   .btn-box-search #search .btn-open {
     display: block;
-    color: #fff;
+    color: #000;
   }
   
   .btn-box-search #search.start .btn-open {
@@ -153,12 +153,7 @@ nav.navbar.navbar-expand-lg {
       height: 100%;
       object-fit: cover;
   }
-  
-  .homelist.active{
-      background-color:rgba(210, 199, 199, 0.9);
-      transition: all 1s;
-      top: 0;
-  }
+
   /* .navbar-nav.test{
       color:#000;
   } */
@@ -204,9 +199,14 @@ nav.navbar.navbar-expand-lg {
       z-index: 99;
       width: 100%;
       padding: 0;
-      background-color: #e9e9e9;
+      background-color: rgb(255 252 252 / 70%);
       transition: all .4s;
       height: auto;
+    }
+    .homelist.active{
+        background-color:#fff;
+        transition: all 1s;
+        top: 0;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
       /* padding-right: 1.5rem;
